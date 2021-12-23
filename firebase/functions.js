@@ -360,7 +360,7 @@ export const sendNotification = async (deviceToken, body, title) => {
   }
   // 24h token
   const access_token =
-    'AAAAac3CfIc:APA91bFVqHV0QF5xjt7h3AFLNTssKyb18zI9FMC_WKr_i3y5qsDF-lyQ1DFjh0qCjDrnlV5ThwqND4nSDhsN_ot1qIVAOEGzOt3LGkjxhPHtboRk42DdhamoXzmF3VJT4LfGqSs58L9p';
+    '<your_acess_token_goes_here';
   const headers = {
     Authorization: 'key=' + access_token,
     'Content-Type': 'application/json',
