@@ -9,7 +9,7 @@ Requirements:
  To allow messaging in the app make sure to get your access token from Firebase Cloud Messaging Server Key and add in the Firebase > functions.php ( sendNotification() )
  
 To start the app run this comands:
-1. - ```yarn```
+1. ```yarn```
 2.  ```npx react-native start```
 3. Open new terminal e then run ```npx react-native run-android```
 
